@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>hello</title>
+        <style>
+            *{
+                margin : 0 ;
+                padding : 0;
+                box-sizing: border-box;
+            }
+            body {
+                background-color : gray;
+            } 
+            .container {
+                    width : 300px ;
+                    height :600px ;
+                    background-color: white;
+                    margin: 0 auto ;
+    
+            }
+            .title {
+                padding : 15px;
+                font-weight: bold; 
+              
+            }
+            .background-image {
+                width : 100%;
+                height : 150px ;
+                border: white;
+                background-image : url(bgr.jpg);
+                margin: auto;
+            }
+            .avt {
+                width: 100px ;
+                height: 100px ;
+                margin: 0 auto ;
+                border-radius: 50% ;
+                position: relative;
+                
+    
+            }
+            .avt img {
+                width: 100px ;
+                height: 100px  ;
+                border-radius: 50% ;
+                Border : 3.5px solid white;
+                position: absolute;
+                top: -25px ;
+                clip-path: circle(50px at 50% 50%); 
+            }
+            .name {
+                padding : 10px;
+                font-size: 23px ;
+                font-weight: bold; 
+                text-align: center;
+                top: -20px ;
+                bottom: 15px
+                ;
+            }
+             
+           
+        </style>
+        <style type="text/css">
+          
+            table{
+                border-spacing:17px;
+                
+            }
+            caption{
+                font-weight: bold;
+                text-align: left;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <p class="title">
+                    Thông tin tài khoản
+                </p>
+                <div class="background-image">
+                </div>
+                <div class="avatar">
+                    <img src="avt.jpg">
+                </div>
+                <div class="name">
+                    Nguyễn Minh Tuấn
+                </div>
+                <div class="info">
+                    <p class="info-header">Thông tin cá nhân</p>
+                </div>
+                <div class="phone-number">
+                    <span class="phone">Điện thoại</span>
+                    <span class="number">0932570060</span>
+                    <div class="gender">
+                        <span class="gender1">Giới tính</span>
+                        <span class="gender2">Nam</span>
+                    </div>
+                    <div class="birth">
+                        <span class="birth1">Ngày sinh</span>
+                        <span class="birth2">02/11/2004</span>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <div class="update">
+                    Cập nhật thông tin
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
